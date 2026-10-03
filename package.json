@@ -1,0 +1,15 @@
+{
+  "name": "ecommerce-mern-platform",
+  "version": "1.0.0",
+  "description": "Full-Stack MERN E-Commerce Price Comparison Platform with Real-Time ML Purchase Intent Prediction",
+  "scripts": {
+    "start": "node start.js",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "ml": "python ml_service/service.py",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
