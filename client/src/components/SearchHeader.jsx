@@ -71,7 +71,7 @@ export default function SearchHeader({ onSearch, loading, currentQuery, selected
         WebkitTextFillColor: 'transparent',
         textShadow: '0 0 40px rgba(255, 255, 255, 0.1)'
       }}>
-        Compare Real-Time Prices Across India's Top Stores
+        Predicting E-commerce Purchase Intent from User Interaction Data
       </h1>
       
       <p style={{
